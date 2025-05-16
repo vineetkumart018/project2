@@ -1,7 +1,6 @@
-// Highlight active nav link on scroll
+
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
-
 window.addEventListener("scroll", () => {
 	let current = "";
 
